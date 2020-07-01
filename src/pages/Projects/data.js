@@ -46,7 +46,7 @@ export const projectData = [
       },
     ],
     projectDescription:
-      'Capstone project for Fullstack Academy. Designed as a website for lifelong learns.',
+      'Capstone project for Fullstack Academy. Website designed for lifelong learners.',
     projectURL: 'https://github.com/pitsprotectors/snipt',
     type: (
       <span>
