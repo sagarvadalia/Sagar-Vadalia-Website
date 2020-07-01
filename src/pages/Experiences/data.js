@@ -135,7 +135,7 @@ export const experiencesData = [
     image: 'Yorango.png',
     title: 'Full Stack Developer Intern',
     summary:
-      ' Refactored front end pages by integrating React and React-Redux.  • Reduced loading time of optimized web-pages by approximately 700%.',
+      'Refactored front end pages by integrating React and React-Redux. Reduced loading time of optimized web-pages by approximately 700%.',
     location: (
       <span>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Ithaca,NY
