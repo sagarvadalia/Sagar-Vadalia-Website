@@ -40,7 +40,7 @@ export const experiencesData = [
     image: 'ZebraTechnologies.png',
     title: 'Software Engineering Intern',
     summary:
-      'Developed a website used for analyzing autonomous tests and graph failure rate, test history, and stack trace data.',
+      'Developed a React Dashboard used for analyzing autonomous tests and graphing failure rate, test history, and stack trace data.',
     location: (
       <span>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Long Island,NY
@@ -168,7 +168,7 @@ export const experiencesData = [
     image: 'Nibbly.png',
     title: 'Android Developer Intern',
     summary:
-      'Designed and implemented features with the goal of porting the Nibbly IPhone app over to Android. ',
+      'Designed and implemented features for porting the Nibbly IPhone app over to Android. ',
     location: (
       <span>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Manhattan,NY
