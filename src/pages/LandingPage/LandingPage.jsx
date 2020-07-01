@@ -33,7 +33,8 @@ export default class LandingPage extends Component {
           <Icon size={'huge'} name="file pdf" style={{ color: '#0077B5' }} />
         ),
         background: 'white',
-        url: 'https://www.scribd.com/document/467575505/Sagar-Va-Dalia-Resume',
+        url:
+          'https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view',
       },
 
       {
