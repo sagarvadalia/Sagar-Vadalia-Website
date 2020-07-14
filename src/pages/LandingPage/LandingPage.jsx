@@ -57,7 +57,8 @@ export default class LandingPage extends Component {
         url: 'https://github.com/sagarvadalia',
       },
     ];
-
+    let aboutMe =
+      "Hi, I am Sagar Vadalia, a software engineering intern currently at Zebra Technologies. I am graduating in December with a Bachelor's Degree from the Computer Science department at Suny Old Westbury. In my free time, I love to read, cook, and play ultimate frisbee. I also love tech! If you'd like to chat about tech, reach out to me at my email sv344@cornell.edu! I'd love to chat about new innovations, fun side projects, user interface design, or anything else!";
     var iconsMobile = [
       {
         icon: (
@@ -155,7 +156,15 @@ export default class LandingPage extends Component {
                 Aspiring Full Stack Engineer
               </Header>
             </Transition>
-
+            <Transition
+              animation="fade down"
+              duration={500}
+              visible={this.state.open}
+            >
+              <Container className="aboutMe" text>
+                {aboutMe}
+              </Container>
+            </Transition>
             <Transition
               animation="zoom"
               duration={500}

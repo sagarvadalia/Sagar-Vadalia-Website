@@ -1,11 +1,11 @@
 /* GRID CSS*/
-.landingPageGrid{
+.landingPageGrid {
     overflow: auto;
     height: 100%;
 
 }
 
-.ui.grid{
+.ui.grid {
     margin-left: 0rem;
     margin-right: 0rem;
 }
@@ -14,42 +14,52 @@
 /**/
 
 /*Main page content*/
-.landingPageMainRow{
+.landingPageMainRow {
     height: 90%;
     width: 100%;
     overflow: hidden;
     overflow-y: auto;
 }
 
-.row{
-}
+.row {}
 
 
 /**/
 
-.ui.header.nameHeader{
+.ui.header.nameHeader {
     font-size: 4rem;
     color: white;
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: bold; 
-    letter-spacing: -1px; 
+    font-weight: bold;
+    letter-spacing: -1px;
     line-height: 1;
     text-align: center;
     text-shadow: 2px 4px black;
 }
 
-.ui.header.titleHeader{
+.ui.header.titleHeader {
     font-size: 2rem;
     color: white;
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: bold; 
-    letter-spacing: -1px; 
+    font-weight: bold;
+    letter-spacing: -1px;
     line-height: 1;
     text-align: center;
     text-shadow: 1px 3px black;
 }
 
-.ui.button.socialButton{
+.aboutMe {
+    font-size: 1.5rem !important;
+    color: white;
+    font-family: 'Helvetica Neue',
+        sans-serif;
+
+    line-height: 1.5 !important;
+    text-align: center;
+    text-shadow: 1px 3px black;
+}
+
+.ui.button.socialButton {
     opacity: .7;
     transition: all .25s ease-in-out;
     margin-top: 15px;
@@ -57,19 +67,19 @@
     box-shadow: 3px 4px black;
 }
 
-.ui.button.socialButton:hover{
+.ui.button.socialButton:hover {
     opacity: 1;
 
 }
 
 
 
-.ui.container.imageContainer{
+.ui.container.imageContainer {
     border-radius: 50%;
 
 }
 
-.profile{
+.profile {
     width: 200px !important;
     height: auto !important;
     box-shadow: 3px 4px black;
