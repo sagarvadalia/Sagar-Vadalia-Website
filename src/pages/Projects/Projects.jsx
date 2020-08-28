@@ -41,6 +41,7 @@ export default class Projects extends Component {
                     size="2x"
                   />
                 ))}
+
                 <br></br>
                 {data.type}
                 <br></br>

@@ -26,6 +26,43 @@ var colors = {
 };
 export const projectData = [
   {
+    projectTitle: 'Reddit Clone',
+    projectIcons: [
+      {
+        icon: faReact,
+        color: colors.react,
+      },
+      {
+        icon: faHtml5,
+        color: colors.html,
+      },
+      {
+        icon: faCss3,
+        color: colors.css,
+      },
+      {
+        icon: faJs,
+        color: colors.javascript,
+      },
+    ],
+    projectDescription:
+      'Full stack reddit clone.\n Worked with - React, TypeScript, GraphQL, URQL/Apollo, PostgreSQL, MikroORM/TypeORM, Redis, Next.js, TypeGraphQL, Chakra',
+    projectURL: 'https://github.com/sagarvadalia/reddit-graphql',
+    type: (
+      <span>
+        <Icon name="user" color={'black'} style={{ 'margin-right': '5px' }} />
+        Solo Project
+      </span>
+    ),
+    status: (
+      <span>
+        <Icon name="cog" color={'yellow'} style={{ 'margin-right': '5px' }} />
+        Work in Progress
+      </span>
+    ),
+  },
+
+  {
     projectTitle: 'Snipt',
     projectIcons: [
       {
