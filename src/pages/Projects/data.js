@@ -26,6 +26,47 @@ var colors = {
 };
 export const projectData = [
   {
+    projectTitle: 'Capstone project for System Design Class',
+    projectIcons: [
+      {
+        icon: faReact,
+        color: colors.react,
+      },
+      {
+        icon: faHtml5,
+        color: colors.html,
+      },
+      {
+        icon: faCss3,
+        color: colors.css,
+      },
+      {
+        icon: faJs,
+        color: colors.javascript,
+      },
+
+    ],
+    projectDescription:
+      'Full stack university portal.\n Worked with - React, TypeScript, Javascript, Express, TypeORM and Material UI',
+    projectURL: 'https://github.com/sagarvadalia/SystemDesignTypescript',
+    type: (
+      <span>
+        <Icon name="users" color={'black'} style={{ 'margin-right': '5px' }} />
+        Collaborative Project
+      </span>
+    ),
+      status: (
+      <span>
+        <Icon
+          name="thumbs up outline"
+          color={'green'}
+          style={{ 'margin-right': '5px' }}
+        />
+        Completed
+      </span>
+    ),
+  },
+  {
     projectTitle: 'Reddit Clone',
     projectIcons: [
       {

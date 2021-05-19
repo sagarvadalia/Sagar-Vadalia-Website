@@ -38,6 +38,59 @@ export const experiencesData = [
   {
     company: 'Zebra Technologies',
     image: 'ZebraTechnologies.png',
+    title: 'Software Engineer',
+    summary:
+      `• Developed a Full Stack website for Zebra's test automation engineers to display, analyze, and catagorize device testing data.\n
+• Applied React, Express, and PostgreSQL to create a scalable, responsive, and performant solution.\n
+• Decreased load time when compared to the previous tool by over 90%.\n
+• Maintaned the device farm of 40 test beds and 400 devices by updating test devices, running robot test files, and running weekly stability tests and build upgrades`,
+    location: (
+      <span>
+        <FontAwesomeIcon icon={faMapMarkerAlt} /> Long Island,NY
+      </span>
+    ),
+    term: (
+      <span>
+        {' '}
+        <FontAwesomeIcon icon={faCalendarAlt} /> December 2020 - Present{' '}
+      </span>
+    ),
+    fontColor: '#0061aa',
+    technologies: [
+      {
+        icon: faPython,
+        color: colors.python,
+      },
+      {
+        icon: faHtml5,
+        color: colors.html,
+      },
+      {
+        icon: faCss3,
+        color: colors.css,
+      },
+      {
+        icon: faJs,
+        color: colors.javascript,
+      },
+      {
+        icon: faDatabase,
+        color: colors.sql,
+      },
+      {
+        icon: faReact,
+        color: colors.react,
+      },
+      {
+        icon: faFlask,
+        color: colors.flask,
+      },
+
+    ],
+  },
+  {
+    company: 'Zebra Technologies',
+    image: 'ZebraTechnologies.png',
     title: 'Software Engineering Intern',
     summary:
       'Developed a React Dashboard used for analyzing autonomous tests and graphing failure rate, test history, and stack trace data.',
