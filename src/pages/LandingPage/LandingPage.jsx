@@ -28,14 +28,14 @@ export default class LandingPage extends Component {
 
   render() {
     var icons = [
-      // {
-      //   icon: (
-      //     <Icon size={'huge'} name="file pdf" style={{ color: '#0077B5' }} />
-      //   ),
-      //   background: 'white',
-      //   url:
-      //     'https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view',
-      // },
+      {
+        icon: (
+          <Icon size={'huge'} name="file pdf" style={{ color: '#0077B5' }} />
+        ),
+        background: 'white',
+        url:
+          'https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view',
+      },
 
       {
         icon: (
@@ -60,13 +60,13 @@ export default class LandingPage extends Component {
     let aboutMe =
       "Hi, I am Sagar Vadalia, a software engineering intern currently at Zebra Technologies. I am graduating in December with a Bachelor's Degree from the Computer Science department at Suny Old Westbury. In my free time, I love to read, cook, and play ultimate frisbee. I also love tech! If you'd like to chat about tech, reach out to me at my email sv344@cornell.edu! I'd love to chat about new innovations, fun side projects, user interface design, or anything else!";
     var iconsMobile = [
-      // {
-      //   icon: (
-      //     <Icon size={'big'} name="file pdf" style={{ color: '#0077B5' }} />
-      //   ),
-      //   background: 'white',
-      //   url: 'https://www.scribd.com/document/467575505/Sagar-Va-Dalia-Resume',
-      // },
+      {
+        icon: (
+          <Icon size={'big'} name="file pdf" style={{ color: '#0077B5' }} />
+        ),
+        background: 'white',
+        url: 'https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view',
+      },
       {
         icon: <Icon size={'big'} name="fa-file" style={{ color: '#0077B5' }} />,
         background: 'white',
