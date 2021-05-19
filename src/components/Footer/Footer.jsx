@@ -8,7 +8,7 @@ export default class Footer extends Component {
     state = {}
 
     handleFooterLabelClick = () => {
-        window.open("https://github.com/arun-ajay/arun-ajay-website","_blank")
+        window.open("https://github.com/sagarvadalia/Sagar-Vadalia-Website","_blank")
     }
 
 
@@ -21,7 +21,7 @@ export default class Footer extends Component {
                     <Label circular  icon = {"github"} color = {"black"}/>
                     <Button compact circular animated = {"vertical"} color = {"black"}>
                         <Button.Content visible>
-                            Arun Ajay
+                            Sagar Vadalia
                         </Button.Content>
                         <Button.Content hidden>
                             Source Code!
@@ -32,7 +32,7 @@ export default class Footer extends Component {
             <Grid.Column only = {"tablet mobile"} width = {16} textAlign = {"center"} verticalAlign = {"middle"}>
                 <Button color = {"black"} compact circular onClick = {this.handleFooterLabelClick}>
                     <Button.Content>
-                    <Icon name = "hand point right outline"/>Click to see the source code! <Icon name = "hand point left outline"/>
+                    <Icon name = "hand point right outline"/>See the source code! <Icon name = "hand point left outline"/>
                     </Button.Content>
                 </Button>
             </Grid.Column>
