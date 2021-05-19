@@ -40,10 +40,7 @@ export const experiencesData = [
     image: 'ZebraTechnologies.png',
     title: 'Software Engineer',
     summary:
-      `• Developed a Full Stack website for Zebra's test automation engineers to display, analyze, and catagorize device testing data.\n
-• Applied React, Express, and PostgreSQL to create a scalable, responsive, and performant solution.\n
-• Decreased load time when compared to the previous tool by over 90%.\n
-• Maintaned the device farm of 40 test beds and 400 devices by updating test devices, running robot test files, and running weekly stability tests and build upgrades`,
+      `Developed a Full Stack website for Zebra's test automation engineers to display, analyze, and catagorize device testing data.Applied React, Express, and PostgreSQL to create a scalable, responsive, and performant solution. Decreased load time when compared to the previous tool by over 90%. Maintaned the device farm of 40 test beds and 400 devices by updating test devices, running robot test files, and running weekly stability tests and build upgrades`,
     location: (
       <span>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Long Island,NY

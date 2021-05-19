@@ -26,7 +26,7 @@ var colors = {
 };
 export const projectData = [
   {
-    projectTitle: 'Capstone project for System Design Class',
+    projectTitle: 'Capstone project for System Design',
     projectIcons: [
       {
         icon: faReact,
