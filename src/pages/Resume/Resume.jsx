@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 
 import React from 'react';
 import './Resume.css';
@@ -14,8 +15,10 @@ function Resume() {
             <Grid.Row className = "resumePageMainRow">
                 <Grid.Column only = {"computer"} width = {3}/>
           <Grid.Column only={"computer"} width={10}>
-            <a href= "https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view">
-               <iframe title = "desktop resume" className = "resumeIframe" src = "/SagarVadaliaResume.pdf"/>
+
+            <a href="https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view" target="_blank">
+              <div style={{ "position": "absolute", "z-index": "500", "height": "245px", "width":"100%"}}></div>
+               <iframe frameborder="0" height="245" width="100%"  title = "desktop resume" className = "resumeIframe" src = "/SagarVadaliaResume.pdf"/>
             </a>
 
                 </Grid.Column>
@@ -24,10 +27,10 @@ function Resume() {
 
                 <Grid.Column only = {"tablet mobile"} width = {1}/>
           <Grid.Column only={"tablet mobile"} width={14}>
-            <a href="https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view">
-                 <iframe title = "mobile resume" className = "resumeIframe" src = "/SagarVadaliaResume.pdf"/>
+            <a href="https://drive.google.com/file/d/10x1PxPh9_1WUFocRLxZYRYZ4b-LuFuoZ/view" target="_blank">
+              <div style={{ "position": "absolute", "z-index": "500", "height": "1000px", "width":"100%"}}></div>
+               <iframe frameborder="0" height="245" width="100%"  title = "desktop resume" className = "resumeIframe" src = "/SagarVadaliaResume.pdf"/>
             </a>
-
                 </Grid.Column>
 
                 <Grid.Column only = {"tablet mobile"} width = {1}/>
