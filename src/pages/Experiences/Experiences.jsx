@@ -26,7 +26,7 @@ export default class Experiences extends Component {
           visible={this.state.open}
         >
           <Card color={'blue'} className="experienceCard">
-            <img
+            <img alt = "experience"
               src={require('./assets/' + data.image)}
               className="experienceCardImage"
             />
