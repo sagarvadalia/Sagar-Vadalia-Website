@@ -63,8 +63,8 @@ export default class Experiences extends Component {
       <Grid padded={'vertically'} className="experiencesPageGrid">
         <SiteHeader></SiteHeader>
         <Grid.Row className="experiencesPageMainRow">
-          <Grid.Column only={'computer'} width={4} />
-          <Grid.Column only={'computer'} width={10}>
+          <Grid.Column only={'computer'} width={2} />
+          <Grid.Column only={'computer'} width={12}>
             <Card.Group stackable itemsPerRow={3}>
               {cardArray}
             </Card.Group>
