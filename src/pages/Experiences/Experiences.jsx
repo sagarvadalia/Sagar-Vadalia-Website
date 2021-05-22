@@ -26,7 +26,7 @@ export default class Experiences extends Component {
           visible={this.state.open}
         >
           <Card color={'blue'} className="experienceCard">
-            <img alt = "experience"
+            <img alt="experience"
               src={require('./assets/' + data.image)}
               className="experienceCardImage"
             />
@@ -65,7 +65,7 @@ export default class Experiences extends Component {
         <Grid.Row className="experiencesPageMainRow">
           <Grid.Column only={'computer'} width={4} />
           <Grid.Column only={'computer'} width={10}>
-            <Card.Group stackable itemsPerRow={2}>
+            <Card.Group stackable itemsPerRow={3}>
               {cardArray}
             </Card.Group>
           </Grid.Column>
